@@ -1,0 +1,138 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: 'Barlow Condensed', sans-serif;
+  --font-sans: 'Inter', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  --color-surface-base: #0B0D11;
+  --color-surface-card: #13161C;
+  --color-surface-elevated: #1B1E26;
+  --color-surface-secondary: #222631;
+  --color-tactical-amber: #F8B704;
+  --color-tactical-gold-hover: #FFC82D;
+  --color-border-subtle: rgba(255, 255, 255, 0.08);
+  --color-border-tactical: rgba(248, 183, 4, 0.25);
+  --color-text-primary: #F8FAFC;
+  --color-text-secondary: #94A3B8;
+  --color-text-muted: #64748B;
+  --color-status-active: #22C55E;
+}
+
+@layer base {
+  body {
+    background-color: #0B0D11;
+    color: #F8FAFC;
+    font-family: 'Inter', sans-serif;
+  }
+  h1, h2, h3, h4, h5, h6, .font-display {
+    font-family: 'Barlow Condensed', sans-serif;
+  }
+}
+
+/* iOS Military Glass Substrates */
+.military-glass {
+  background: rgba(19, 22, 28, 0.68);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 12px 32px 0 rgba(0, 0, 0, 0.45);
+}
+
+.military-glass-elevated {
+  background: rgba(25, 29, 37, 0.78);
+  backdrop-filter: blur(28px);
+  -webkit-backdrop-filter: blur(28px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 0 20px 50px -10px rgba(0, 0, 0, 0.7), inset 0 1px 0 rgba(255, 255, 255, 0.12);
+}
+
+.military-glass-dock {
+  background: rgba(15, 18, 24, 0.82);
+  backdrop-filter: blur(32px);
+  -webkit-backdrop-filter: blur(32px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 -10px 40px rgba(0, 0, 0, 0.6);
+}
+
+.military-glass-card {
+  background: rgba(18, 21, 28, 0.65);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.military-glass-card:hover {
+  background: rgba(23, 27, 36, 0.8);
+  border-color: rgba(248, 183, 4, 0.35);
+  box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.6), 0 0 20px rgba(248, 183, 4, 0.15);
+}
+
+.specular-sheen {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.06) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.amber-glow {
+  box-shadow: 0 0 0 1px #F8B704, 0 0 20px rgba(248, 183, 4, 0.35);
+}
+
+/* Subtle Tactical Ambient Grid */
+.tactical-grid-bg {
+  background-image: radial-gradient(rgba(248, 183, 4, 0.07) 1px, transparent 1px),
+                    radial-gradient(rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+  background-size: 32px 32px;
+  background-position: 0 0, 16px 16px;
+}
+
+/* Custom rounded scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0B0D11;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #F8B704;
+}
+
+/* Dual Opposite Chamfered Tactical Button Shapes (Inspired by Artboard Specifications)
+   Rules: Cuts must always be in 2 opposite diagonal directions (TR & BL or TL & BR).
+   No single corner cuts, no bubble pill rounded corners. */
+.chamfer-tactical,
+.chamfer-dual-tr-bl,
+.chamfer-tr,
+.chamfer-bl {
+  clip-path: polygon(0 0, calc(100% - 14px) 0, 100% 14px, 100% 100%, 14px 100%, 0 calc(100% - 14px));
+}
+
+.chamfer-tactical-alt,
+.chamfer-dual-tl-br,
+.chamfer-diag,
+.chamfer-tl,
+.chamfer-br {
+  clip-path: polygon(14px 0, 100% 0, 100% calc(100% - 14px), calc(100% - 14px) 100%, 0 100%, 0 14px);
+}
+
+/* Small Variants for Badges, Tabs, and Compact Buttons */
+.chamfer-tactical-sm,
+.chamfer-sm-dual-tr-bl,
+.chamfer-sm-tr,
+.chamfer-sm-bl {
+  clip-path: polygon(0 0, calc(100% - 9px) 0, 100% 9px, 100% 100%, 9px 100%, 0 calc(100% - 9px));
+}
+
+.chamfer-tactical-sm-alt,
+.chamfer-sm-dual-tl-br,
+.chamfer-sm-diag,
+.chamfer-sm-tl,
+.chamfer-sm-br {
+  clip-path: polygon(9px 0, 100% 0, 100% calc(100% - 9px), calc(100% - 9px) 100%, 0 100%, 0 9px);
+}
+
+

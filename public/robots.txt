@@ -1,0 +1,6 @@
+# Robots.txt for Brotrher Boots Official
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://brotrher.com/sitemap.xml

@@ -1,0 +1,6 @@
+{
+  "name": "Brotrher Boots Official - Sepatu PDL Kulit Asli",
+  "description": "Toko resmi Brotrher Boots (brotrher.com & shopee.co.id/brotrherbootsofficial). Sepatu PDL dinas TNI, POLRI, Security kulit sapi asli, sol radial jahit keliling, tali kawat putar Fitgo.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

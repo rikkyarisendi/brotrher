@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="id" class="dark scroll-smooth">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Browser Extension Compatibility Guard -->
+  <script>
+    (function () {
+      try {
+        var originalFetch = window.fetch ? window.fetch.bind(window) : null;
+        var activeFetch = originalFetch;
+        Object.defineProperty(window, 'fetch', {
+          get: function () {
+            return activeFetch;
+          },
+          set: function (newFetch) {
+            activeFetch = newFetch;
+          },
+          configurable: true,
+          enumerable: true
+        });
+      } catch (_) { }
+
+      window.addEventListener('error', function (event) {
+        if (
+          (event.filename && event.filename.includes('chrome-extension://')) ||
+          (event.message && event.message.includes('fetch of #<Window>'))
+        ) {
+          event.stopImmediatePropagation();
+          event.preventDefault();
+          return true;
+        }
+      }, true);
+    })();
+  </script>
+  <title>Brotrher Boots Official - Sepatu PDL Kulit Asli & Tactical Gear</title>
+  <meta name="description"
+    content="Toko resmi Brotrher Boots (brotrher.com & shopee.co.id/brotrherbootsofficial). Sepatu PDL dinas TNI, POLRI, Security kulit sapi asli, sol radial jahit keliling, tali kawat putar Fitgo." />
+
+  <!-- Search Engine Optimization (SEO) & Google Indexing -->
+  <meta name="keywords"
+    content="sepatu pdl, sepatu pdl kulit sapi asli, sepatu pdl tni, sepatu pdl polri, sepatu pdl tali putar fitgo, sepatu pdh kowad, sepatu pdh polwan, sepatu pdl security satpam, sepatu tactical kulit, brotrher boots, sepatu lantas, sepatu laras tinggi, sepatu militer jahit keliling, sepatu dinas pria, sepatu pdl cod" />
+  <meta name="author" content="Brotrher Boots Indonesia" />
+  <meta name="publisher" content="Brotrher Boots Official" />
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+  <link rel="canonical" href="https://brotrher.com/" />
+  <meta name="geo.region" content="ID" />
+  <meta name="geo.placename" content="Indonesia" />
+  <meta name="theme-color" content="#0F1115" />
+
+  <!-- OpenGraph Social Cards -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://brotrher.com/" />
+  <meta property="og:title" content="Brotrher Boots Official - Sepatu PDL Kulit Asli & Tactical Gear" />
+  <meta property="og:description"
+    content="Toko resmi Brotrher Boots (brotrher.com & shopee.co.id/brotrherbootsofficial). Sepatu PDL dinas TNI, POLRI, Security kulit sapi asli, sol radial jahit keliling, tali kawat putar Fitgo." />
+  <meta property="og:site_name" content="Brotrher Boots Official" />
+  <meta property="og:locale" content="id_ID" />
+  <meta property="og:image" content="https://brotrher.com/assets/og.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:alt" content="Sepatu PDL Brotrher Boots Kulit Sapi Asli" />
+
+  <!-- Twitter / X Cards -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Brotrher Boots Official - Sepatu PDL Kulit Asli & Tactical Gear" />
+  <meta name="twitter:description"
+    content="Toko resmi Brotrher Boots. Sepatu PDL dinas TNI, POLRI, Security kulit sapi asli, sol radial jahit keliling, tali kawat putar Fitgo. Bisa COD." />
+  <meta name="twitter:image" content="https://brotrher.com/assets/og.png" />
+
+  <!-- Schema.org Structured Data (JSON-LD) for Google Rich Snippets -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "OnlineStore",
+          "@id": "https://brotrher.com/#store",
+          "name": "Brotrher Boots Official",
+          "url": "https://brotrher.com",
+          "logo": "https://brotrher.com/assets/brand/ICON-LOGO.webp",
+          "image": "https://brotrher.com/assets/og.png",
+          "description": "Produsen dan distributor resmi sepatu PDL dan PDH 100% kulit sapi asli untuk dinas TNI, POLRI, Satpam/Security, Polantas, dan perlengkapan taktikal outdoor lapangan.",
+          "priceRange": "Rp 435.000 - Rp 725.000",
+          "currenciesAccepted": "IDR",
+          "paymentAccepted": "Cash on Delivery (COD), Transfer Bank, QRIS",
+          "telephone": "+6282123456789",
+          "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "ID"
+          }
+        },
+        {
+          "@type": "ItemList",
+          "@id": "https://brotrher.com/#catalog",
+          "name": "Katalog Sepatu PDL & PDH Kulit Asli Brotrher Boots",
+          "itemListElement": [
+            {
+              "@type": "Product",
+              "position": 1,
+              "name": "Brotrher Marabunta Rocky Fitgo",
+              "description": "Sepatu PDL Flagship sistem kawat baja putar Fitgo, kulit sapi asli, sol rubber jahit keliling tembus dalam.",
+              "image": "https://brotrher.com/assets/products/slide1-marabunta.webp",
+              "offers": {
+                "@type": "Offer",
+                "price": "695000",
+                "priceCurrency": "IDR",
+                "availability": "https://schema.org/InStock"
+              }
+            },
+            {
+              "@type": "Product",
+              "position": 2,
+              "name": "Brotrher Fitgo Tawon",
+              "description": "Sepatu PDL taktis jala karet tawon peredam benturan, tali putar Fitgo, tapak sol radial komando.",
+              "image": "https://brotrher.com/assets/products/slide3-tawon.webp",
+              "offers": {
+                "@type": "Offer",
+                "price": "685000",
+                "priceCurrency": "IDR",
+                "availability": "https://schema.org/InStock"
+              }
+            },
+            {
+              "@type": "Product",
+              "position": 3,
+              "name": "Brotrher Douglas Full Kulit Fitgo",
+              "description": "Sepatu PDL 100% full kulit sapi asli doff, ventilasi samping, sistem knop kawat baja Fitgo.",
+              "image": "https://brotrher.com/assets/products/Douglas-Full-Kulit.webp",
+              "offers": {
+                "@type": "Offer",
+                "price": "695000",
+                "priceCurrency": "IDR",
+                "availability": "https://schema.org/InStock"
+              }
+            },
+            {
+              "@type": "Product",
+              "position": 4,
+              "name": "Brotrher Deville Fitgo Tactical",
+              "description": "Sepatu PDL Deville full kulit sapi asli hitam doff dengan sirkulasi udara perforated & tali putar Fitgo.",
+              "image": "https://brotrher.com/assets/products/Deville.webp",
+              "offers": {
+                "@type": "Offer",
+                "price": "695000",
+                "priceCurrency": "IDR",
+                "availability": "https://schema.org/InStock"
+              }
+            },
+            {
+              "@type": "Product",
+              "position": 5,
+              "name": "Brotrher Fitgo Mamba PM / TNI",
+              "description": "Sepatu dinas laras tinggi edisi resmi Polisi Militer PM TNI kombinasi hitam kilap & putih lis dinas.",
+              "image": "https://brotrher.com/assets/products/Fitgo-Mamba-PM-TNI.webp",
+              "offers": {
+                "@type": "Offer",
+                "price": "710000",
+                "priceCurrency": "IDR",
+                "availability": "https://schema.org/InStock"
+              }
+            },
+            {
+              "@type": "Product",
+              "position": 6,
+              "name": "Brotrher PDH Jatah Kilap Fitgo",
+              "description": "Sepatu PDH dinas harian pantofel komando super kilap tanpa semir dengan sistem knop tali putar Fitgo.",
+              "image": "https://brotrher.com/assets/products/PDH-Jatah.webp",
+              "offers": {
+                "@type": "Offer",
+                "price": "495000",
+                "priceCurrency": "IDR",
+                "availability": "https://schema.org/InStock"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://brotrher.com/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Apakah sepatu Brotrher Boots terbuat dari 100% kulit sapi asli?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ya, seluruh sepatu Brotrher Boots diproduksi menggunakan 100% kulit sapi asli Grade A pilihan yang tebal, lentur di kaki, tidak pecah-pecah terkena panas terik maupun air hujan, serta nyaman dipakai seharian penuh."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Apakah sol bawah sepatu sudah dijahit keliling tembus ke dalam?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ya, semua sepatu Brotrher Boots sol karet bawahnya sudah dijahit melingkar 360 derajat tembus ke bagian dalam menggunakan benang nilon berkualitas militer. Dijamin sol tidak akan gampang mangap atau lepas di medan berat."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Apa kelebihan sistem tali putar Fitgo pada sepatu PDL Brotrher?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Sistem Fitgo menggunakan kawat baja import anti putus dengan knop pengencang otomatis. Memudahkan memakai dan mengencangkan sepatu hanya dalam waktu 3 detik tanpa perlu repot mengikat tali manual."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Apakah bisa pesan dengan sistem Bayar di Tempat (COD) dan garansi tukar ukuran?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Bisa. Brotrher Boots melayani sistem COD (Bayar di Tempat) ke seluruh wilayah Indonesia. Kami juga memberikan garansi tukar size apabila ukuran sepatu yang diterima kebesaran atau kekecilan."
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+  <!-- Official Brotrher Boots Icon Favicon -->
+  <link rel="icon" type="image/png" href="/assets/brand/ICON-LOGO.webp" />
+
+  <!-- Google Fonts: Barlow Condensed & Inter for Tactical Utilitarianism -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,500;0,600;0,700;0,800;1,700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap"
+    rel="stylesheet">
+</head>
+
+<body
+  class="bg-[#0F1115] text-[#F8FAFC] selection:bg-[#F8B704] selection:text-[#0F1115] antialiased overflow-x-hidden font-sans">
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+
+</html>
