@@ -24,7 +24,7 @@ export const HERO_SLIDES: HeroSlide[] = [
     priceDisplay: 'Rp 657.900',
     discountBadge: 'FLAGSHIP EDITION',
     featuredTag: 'MARABUNTA ROCKY',
-    image: '/assets/aistudio/Artboard_10_5355e980.png',
+    image: '/assets/products/slide1-marabunta.webp',
     productId: 'brotrher-marabunta-rocky',
     callouts: [
       'Fitgo Lacing System',
@@ -49,8 +49,8 @@ export const HERO_SLIDES: HeroSlide[] = [
     priceDisplay: 'Rp 668.000',
     discountBadge: 'TERLARIS TAWON',
     featuredTag: 'FITGO TAWON',
-    image: '/assets/aistudio/Artboard_10_copy_2_863ddb50.png',
-    productId: 'brotrher-fitgo-tawon',
+    image: '/assets/products/slide3-tawon.webp',
+    productId: 'brotrher-fitgo-tawon-black',
     callouts: [
       'Fitgo Lacing System',
       'Tali Baja Import',
@@ -75,8 +75,8 @@ export const HERO_SLIDES: HeroSlide[] = [
     priceDisplay: 'Rp 667.900',
     discountBadge: 'EDISI DINAS LANTAS',
     featuredTag: 'FITGO LANTAS',
-    image: '/assets/aistudio/Artboard_10_copy_7a09b7fe.png',
-    productId: 'brotrher-fitgo-lantas',
+    image: '/assets/products/slide2-lantas.webp',
+    productId: 'brotrher-fitgo-lantas-6inch',
     callouts: [
       'Fitgo Lacing System',
       'Tali Baja Import',

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { X, Trash2, Plus, Minus, ShoppingBag, ArrowRight, CheckCircle2 } from 'lucide-react';
+import { X, Trash2, Plus, Minus, ShoppingBasket, ArrowRight, CheckCircle2 } from 'lucide-react';
 import { CartItem } from '../types/tactical';
 import { BRAND_CONFIG } from '../data/tacticalData';
 
@@ -108,7 +108,7 @@ const CartDrawerDialog: React.FC<CartDrawerProps> = ({
             {items.length === 0 ? (
               <div className="text-center py-16">
                 <div className="w-14 h-14 mx-auto rounded-full military-glass flex items-center justify-center text-[#64748B] mb-3">
-                  <ShoppingBag className="w-7 h-7" />
+                  <ShoppingBasket className="w-7 h-7" />
                 </div>
                 <h4 className="font-display text-xl font-bold uppercase text-[#F8FAFC]">
                   KERANJANG MASIH KOSONG

@@ -21,9 +21,9 @@ export const product: Product = {
   "inStock": true,
   "stockRemaining": 7,
   "badge": "EDISI SPESIAL DEVILLE",
-  "image": "/assets/aistudio/Deville_c7593715.png",
+  "image": "/assets/products/Deville.webp",
   "gallery": [
-    "/assets/aistudio/Deville_c7593715.png"
+    "/assets/products/Deville.webp"
   ],
   "specs": {
     "material": "100% Kulit Sapi Asli Grade A + Perforated Breathable",

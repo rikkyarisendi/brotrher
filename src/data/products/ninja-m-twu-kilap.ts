@@ -18,7 +18,9 @@ export const product: Product = {
   "stockRemaining": 12,
   "badge": "TWU AIR VENTILATION",
   "image": "/assets/products/Ninja-M-TWU-Kilap.webp",
-  "gallery": ["/assets/products/Ninja-M-TWU-Kilap.webp"],
+  "gallery": [
+    "/assets/products/Ninja-M-TWU-Kilap.webp"
+  ],
   "specs": {
     "material": "Kulit Sapi Super Kilap + Cordura Perforated Mesh Air Flow",
     "outsole": "Sol Radial Komando Gigi Balok 4cm",

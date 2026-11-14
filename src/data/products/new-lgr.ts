@@ -22,9 +22,9 @@ export const product: Product = {
   "inStock": true,
   "stockRemaining": 9,
   "badge": "LARAS TINGGI 10-INCH",
-  "image": "/assets/aistudio/New-LGR_e2a5c362.png",
+  "image": "/assets/products/New-LGR.webp",
   "gallery": [
-    "/assets/aistudio/New-LGR_e2a5c362.png"
+    "/assets/products/New-LGR.webp"
   ],
   "specs": {
     "material": "100% Full Kulit Sapi Asli Olahan Halus",

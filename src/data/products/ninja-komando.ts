@@ -18,7 +18,9 @@ export const product: Product = {
   "stockRemaining": 12,
   "badge": "TACTICAL FIELD READY",
   "image": "/assets/products/Ninja-Komando.webp",
-  "gallery": ["/assets/products/Ninja-Komando.webp"],
+  "gallery": [
+    "/assets/products/Ninja-Komando.webp"
+  ],
   "specs": {
     "material": "Kulit Sapi Asli Doff + Cordura Anti Air & Robek",
     "outsole": "Sol Radial Komando Tebal",

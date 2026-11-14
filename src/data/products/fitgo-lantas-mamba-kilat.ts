@@ -18,7 +18,9 @@ export const product: Product = {
   "stockRemaining": 12,
   "badge": "LANTAS PATROLI RESMI",
   "image": "/assets/products/Fitgo-Lantas-Mamba-Kilat.webp",
-  "gallery": ["/assets/products/Fitgo-Lantas-Mamba-Kilat.webp"],
+  "gallery": [
+    "/assets/products/Fitgo-Lantas-Mamba-Kilat.webp"
+  ],
   "specs": {
     "material": "100% Full Kulit Sapi Super Kilat Glossy + Jala Tawon Breathable",
     "outsole": "Sol Radial Komando Jahit Tembus Keliling",

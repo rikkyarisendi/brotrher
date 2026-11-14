@@ -21,9 +21,9 @@ export const product: Product = {
   "inStock": true,
   "stockRemaining": 16,
   "badge": "BEST SELLER GEN-6",
-  "image": "/assets/aistudio/New-Gen-6_550b369b.png",
+  "image": "/assets/products/New-Gen-6.webp",
   "gallery": [
-    "/assets/aistudio/New-Gen-6_550b369b.png"
+    "/assets/products/New-Gen-6.webp"
   ],
   "specs": {
     "material": "100% Kulit Sapi Asli + Cordura Canvas Waterproof",

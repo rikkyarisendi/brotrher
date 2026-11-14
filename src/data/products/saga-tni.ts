@@ -18,7 +18,9 @@ export const product: Product = {
   "stockRemaining": 12,
   "badge": "STANDAR MILITER TNI",
   "image": "/assets/products/Saga-TNI.webp",
-  "gallery": ["/assets/products/Saga-TNI.webp"],
+  "gallery": [
+    "/assets/products/Saga-TNI.webp"
+  ],
   "specs": {
     "material": "Kulit Sapi Asli Doff 1.8mm + Cordura Heavy Duty TNI",
     "outsole": "Sol Radial Komando Cengkeram Ekstrem",

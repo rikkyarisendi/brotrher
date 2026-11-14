@@ -21,9 +21,9 @@ export const product: Product = {
   "inStock": true,
   "stockRemaining": 7,
   "badge": "EDISI RESMI PM TNI",
-  "image": "/assets/aistudio/New-Mamba-TNI_30f6767c.png",
+  "image": "/assets/products/New-Mamba-TNI.webp",
   "gallery": [
-    "/assets/aistudio/New-Mamba-TNI_30f6767c.png"
+    "/assets/products/New-Mamba-TNI.webp"
   ],
   "specs": {
     "material": "100% Kulit Sapi Asli Glossy Kilap Kombinasi Putih PM",

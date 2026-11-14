@@ -12,18 +12,18 @@ export const product: Product = {
   ],
   "categoryLabel": "PDL",
   "tagline": "Sepatu PDL seri Tawon stealth all-black, jala karet peredam benturan motif sarang lebah & sistem tali putar Fitgo.",
-  "price": 675000,
+  "price": 668000,
   "originalPrice": 845000,
-  "discountPercent": 20,
+  "discountPercent": 21,
   "rating": 4.9,
   "reviewCount": 3650,
   "isBestSeller": true,
   "inStock": true,
   "stockRemaining": 15,
   "badge": "BEST SELLER TAWON",
-  "image": "/assets/aistudio/Fitgo-Tawon_0c928157.png",
+  "image": "/assets/products/Fitgo-Tawon.webp",
   "gallery": [
-    "/assets/aistudio/Fitgo-Tawon_0c928157.png"
+    "//assets//products//Fitgo-Tawon.webp"
   ],
   "specs": {
     "material": "Kulit Sapi Asli + Jala Karet Tawon + Cordura",

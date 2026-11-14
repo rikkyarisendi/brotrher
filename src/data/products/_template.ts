@@ -63,9 +63,9 @@ export const product: Product = {
   badge: 'FREE KEYCHAIN + KAOS KAKI',
 
   // Path gambar produk
-  image: '/assets/aistudio/Nama-File-Foto.png',
+  image: '/assets/products/Bronson.webp',
   gallery: [
-    '/assets/aistudio/Nama-File-Foto.png',
+    '/assets/products/Bronson.webp',
   ],
 
   // Spesifikasi teknis sepatu

@@ -13,18 +13,18 @@ export const product: Product = {
   ],
   "categoryLabel": "PDH",
   "tagline": "Sepatu dinas patroli Lantas 6-inch dengan sistem tali putar Fitgo kawat baja import, free keychain & kaos kaki dinas.",
-  "price": 695000,
+  "price": 667900,
   "originalPrice": 870000,
-  "discountPercent": 20,
+  "discountPercent": 23,
   "rating": 5,
   "reviewCount": 2140,
   "isDropAlert": true,
   "inStock": true,
   "stockRemaining": 10,
   "badge": "FREE KEYCHAIN + KAOS KAKI",
-  "image": "/assets/aistudio/Fitgo-Lantas-6inch_075e3a53.png",
+  "image": "/assets/products/Fitgo-Lantas-6inch.webp",
   "gallery": [
-    "/assets/aistudio/Fitgo-Lantas-6inch_075e3a53.png"
+    "/assets/products/Fitgo-Lantas-6inch.webp"
   ],
   "specs": {
     "material": "100% Kulit Sapi Asli + Jala Karet Tawon",

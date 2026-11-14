@@ -18,7 +18,9 @@ export const product: Product = {
   "stockRemaining": 12,
   "badge": "PROVOS POLRI RESMI",
   "image": "/assets/products/Titan-Provos-Polri.webp",
-  "gallery": ["/assets/products/Titan-Provos-Polri.webp"],
+  "gallery": [
+    "/assets/products/Titan-Provos-Polri.webp"
+  ],
   "specs": {
     "material": "Kulit Sapi Asli Doff + Cordura + Lis Putih Provos",
     "outsole": "Sol Radial Komando Anti-Slip",

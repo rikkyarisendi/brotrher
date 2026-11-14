@@ -18,7 +18,9 @@ export const product: Product = {
   "stockRemaining": 12,
   "badge": "SAGA SUPER KILAP",
   "image": "/assets/products/Saga-Kilap.webp",
-  "gallery": ["/assets/products/Saga-Kilap.webp"],
+  "gallery": [
+    "/assets/products/Saga-Kilap.webp"
+  ],
   "specs": {
     "material": "Kulit Sapi Patent Super Kilap + Cordura Tactical",
     "outsole": "Sol Radial Komando Cengkeram Anti-Slip",

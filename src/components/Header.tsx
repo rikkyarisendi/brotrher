@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ShoppingBag, Menu, X, Zap, ChevronRight, Sliders, ShieldCheck, LogOut } from 'lucide-react';
+import { ShoppingBasket, Menu, X, Zap, ChevronRight, Sliders, ShieldCheck, LogOut } from 'lucide-react';
 import { BRAND_CONFIG } from '../data/tacticalData';
 import { motion, AnimatePresence } from 'motion/react';
 
@@ -124,7 +124,7 @@ export const Header: React.FC<HeaderProps> = ({
               className="flex items-center gap-1.5 sm:gap-2 bg-white/5 hover:bg-white/10 text-[#F8FAFC] border border-white/15 hover:border-[#F8B704] p-2 sm:px-4 sm:py-2.5 text-xs font-semibold rounded-md transition-all group cursor-pointer"
               aria-label="Buka Keranjang Belanja"
             >
-              <ShoppingBag className="w-4 h-4 text-[#F8B704] group-hover:scale-110 transition-transform shrink-0" />
+              <ShoppingBasket className="w-4 h-4 text-[#F8B704] group-hover:scale-110 transition-transform shrink-0" />
               <span className="hidden md:inline font-display text-xs tracking-wider uppercase">Keranjang</span>
               <span className="bg-[#F8B704] text-[#0B0D11] font-mono font-black text-[11px] sm:text-xs px-1.5 sm:px-2 py-0.5 rounded-sm min-w-4 sm:min-w-5 text-center leading-none">
                 {cartCount}

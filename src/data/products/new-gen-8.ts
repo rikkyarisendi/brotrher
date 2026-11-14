@@ -20,9 +20,9 @@ export const product: Product = {
   "inStock": true,
   "stockRemaining": 14,
   "badge": "FREE KEYCHAIN + KAOS KAKI",
-  "image": "/assets/aistudio/New-Gen-8_3f83cbcc.png",
+  "image": "/assets/products/New-Gen-8.webp",
   "gallery": [
-    "/assets/aistudio/New-Gen-8_3f83cbcc.png"
+    "/assets/products/New-Gen-8.webp"
   ],
   "specs": {
     "material": "Kulit Sapi Asli + Cordura + Perforated Ventilation",

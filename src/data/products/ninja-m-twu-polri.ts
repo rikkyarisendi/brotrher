@@ -18,7 +18,9 @@ export const product: Product = {
   "stockRemaining": 12,
   "badge": "POLRI TACTICAL AIR",
   "image": "/assets/products/Ninja-M-TWU-Polri.webp",
-  "gallery": ["/assets/products/Ninja-M-TWU-Polri.webp"],
+  "gallery": [
+    "/assets/products/Ninja-M-TWU-Polri.webp"
+  ],
   "specs": {
     "material": "Kulit Sapi Doff + Cordura TWU Mesh + Lis Putih Polri",
     "outsole": "Sol Radial Komando Anti-Slip",

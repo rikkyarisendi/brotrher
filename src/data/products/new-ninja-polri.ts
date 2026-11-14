@@ -18,7 +18,9 @@ export const product: Product = {
   "stockRemaining": 12,
   "badge": "EDISI RESMI POLRI",
   "image": "/assets/products/New-Ninja-Polri.webp",
-  "gallery": ["/assets/products/New-Ninja-Polri.webp"],
+  "gallery": [
+    "/assets/products/New-Ninja-Polri.webp"
+  ],
   "specs": {
     "material": "Kulit Sapi Asli Doff + Webbing Taktis + Lis Putih Polri",
     "outsole": "Sol Radial Karet Komando Tahan Minyak & Oli",

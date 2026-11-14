@@ -18,7 +18,9 @@ export const product: Product = {
   "stockRemaining": 12,
   "badge": "BREATHABLE MILITARY",
   "image": "/assets/products/Ninja-M-TWU.webp",
-  "gallery": ["/assets/products/Ninja-M-TWU.webp"],
+  "gallery": [
+    "/assets/products/Ninja-M-TWU.webp"
+  ],
   "specs": {
     "material": "Kulit Sapi Asli Doff + Cordura Jala Taktis TWU",
     "outsole": "Sol Radial Komando Karet Mentah",

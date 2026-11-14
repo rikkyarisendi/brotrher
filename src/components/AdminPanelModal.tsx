@@ -2241,7 +2241,7 @@ export const AdminPanelModal: React.FC<AdminPanelModalProps> = ({
                         ],
                         ctaText: 'LIHAT KATALOG',
                         priceDisplay: 'Rp 685.000',
-                        image: '/assets/aistudio/Artboard_10_5355e980.png',
+                        image: '/assets/products/Bronson.webp',
                       };
                       const res = await addHeroSlide(newSlide);
                       if (res.ok) notifyFeedback('success', 'Slide banner baru berhasil ditambahkan.');

@@ -18,7 +18,9 @@ export const product: Product = {
   "stockRemaining": 12,
   "badge": "SWAT COMMODORE KILAP",
   "image": "/assets/products/SWAT-Komando-Kilap.webp",
-  "gallery": ["/assets/products/SWAT-Komando-Kilap.webp"],
+  "gallery": [
+    "/assets/products/SWAT-Komando-Kilap.webp"
+  ],
   "specs": {
     "material": "Kulit Sapi Super Kilap + Cordura SWAT Tactical",
     "outsole": "Sol Radial Komando Cengkeram Mantap",

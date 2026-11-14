@@ -18,7 +18,9 @@ export const product: Product = {
   "stockRemaining": 12,
   "badge": "FULL KULIT TOWER",
   "image": "/assets/products/Tower.webp",
-  "gallery": ["/assets/products/Tower.webp"],
+  "gallery": [
+    "/assets/products/Tower.webp"
+  ],
   "specs": {
     "material": "100% Full Kulit Sapi Asli Doff Premium 1.8mm",
     "outsole": "Sol Radial Komando Gigi Balok 4cm",

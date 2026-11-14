@@ -18,7 +18,9 @@ export const product: Product = {
   "stockRemaining": 12,
   "badge": "FORMAL SLIP-ON DOFF",
   "image": "/assets/products/Pantofel-Doff.webp",
-  "gallery": ["/assets/products/Pantofel-Doff.webp"],
+  "gallery": [
+    "/assets/products/Pantofel-Doff.webp"
+  ],
   "specs": {
     "material": "100% Full Kulit Sapi Asli Smooth Doff Premium",
     "outsole": "Sol Formal Thermo Rubber Bunyi Mantap",

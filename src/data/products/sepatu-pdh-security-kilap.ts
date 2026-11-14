@@ -18,7 +18,13 @@ export const product: Product = {
   "stockRemaining": 12,
   "badge": "SUPER KILAP SECURITY",
   "image": "/assets/products/Sepatu-PDH-Security-Kilap.webp",
-  "gallery": ["/assets/products/Sepatu-PDH-Security-Kilap.webp", "/assets/products/Sepatu-PDH-Security-Kilap_1.webp", "/assets/products/Sepatu-PDH-Security-Kilap_2.webp", "/assets/products/Sepatu-PDH-Security-Kilap_3.webp", "/assets/products/Sepatu-PDH-Security-Kilap_4.webp"],
+  "gallery": [
+    "/assets/products/Sepatu-PDH-Security-Kilap.webp",
+    "/assets/products/Sepatu-PDH-Security-Kilap_1.webp",
+    "/assets/products/Sepatu-PDH-Security-Kilap_2.webp",
+    "/assets/products/Sepatu-PDH-Security-Kilap_3.webp",
+    "/assets/products/Sepatu-PDH-Security-Kilap_4.webp"
+  ],
   "specs": {
     "material": "100% Full Kulit Sapi Super Kilap Glossy",
     "outsole": "Sol Formal Rubber Anti-Slip Cengkeram Lantai",

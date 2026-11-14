@@ -18,7 +18,9 @@ export const product: Product = {
   "stockRemaining": 12,
   "badge": "TACTICAL SWAT UNIT",
   "image": "/assets/products/SWAT.webp",
-  "gallery": ["/assets/products/SWAT.webp"],
+  "gallery": [
+    "/assets/products/SWAT.webp"
+  ],
   "specs": {
     "material": "Kulit Sapi Asli Doff + Cordura Anti Sobek",
     "outsole": "Sol Radial Komando Gigi Balok",

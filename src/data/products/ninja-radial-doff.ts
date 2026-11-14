@@ -18,7 +18,9 @@ export const product: Product = {
   "stockRemaining": 12,
   "badge": "RADIAL DOFF TACTICAL",
   "image": "/assets/products/Ninja-Radial-Doff.webp",
-  "gallery": ["/assets/products/Ninja-Radial-Doff.webp"],
+  "gallery": [
+    "/assets/products/Ninja-Radial-Doff.webp"
+  ],
   "specs": {
     "material": "Kulit Sapi Asli Doff 1.8mm + Cordura Heavy Duty",
     "outsole": "Sol Karet Radial Komando Mantap",
