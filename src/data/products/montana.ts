@@ -18,7 +18,9 @@ export const product: Product = {
   "stockRemaining": 12,
   "badge": "CLASSIC LEATHER BOOTS",
   "image": "/assets/products/Montana.webp",
-  "gallery": ["/assets/products/Montana.webp"],
+  "gallery": [
+    "/assets/products/Montana.webp"
+  ],
   "specs": {
     "material": "100% Full Kulit Sapi Asli Smooth Doff Hitam",
     "outsole": "Rubber Lug Outsole dengan Aksen Welt Krem",

@@ -21,9 +21,9 @@ export const product: Product = {
   "inStock": true,
   "stockRemaining": 11,
   "badge": "FREE KEYCHAIN + KAOS KAKI",
-  "image": "/assets/aistudio/Fitgo-Lantas-Mamba_325cc512.png",
+  "image": "/assets/products/Fitgo-Lantas-Mamba.webp",
   "gallery": [
-    "/assets/aistudio/Fitgo-Lantas-Mamba_325cc512.png"
+    "/assets/products/Fitgo-Lantas-Mamba.webp"
   ],
   "specs": {
     "material": "100% Full Kulit Sapi Asli Pilihan",

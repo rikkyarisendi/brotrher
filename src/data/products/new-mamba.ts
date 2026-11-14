@@ -20,9 +20,9 @@ export const product: Product = {
   "inStock": true,
   "stockRemaining": 12,
   "badge": "FREE KEYCHAIN + KAOS KAKI",
-  "image": "/assets/aistudio/New-Mamba_b7a5a439.png",
+  "image": "/assets/products/New-Mamba.webp",
   "gallery": [
-    "/assets/aistudio/New-Mamba_b7a5a439.png"
+    "/assets/products/New-Mamba.webp"
   ],
   "specs": {
     "material": "100% Kulit Sapi Asli Grade A Pilihan",

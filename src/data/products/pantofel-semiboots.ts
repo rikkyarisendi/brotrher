@@ -18,7 +18,9 @@ export const product: Product = {
   "stockRemaining": 12,
   "badge": "SEMI BOOTS PERWIRA",
   "image": "/assets/products/Pantofel-Semiboots.webp",
-  "gallery": ["/assets/products/Pantofel-Semiboots.webp"],
+  "gallery": [
+    "/assets/products/Pantofel-Semiboots.webp"
+  ],
   "specs": {
     "material": "100% Full Kulit Sapi Asli Grade A Hitam",
     "outsole": "Sol Karet Formal Tread Anti Slip",

@@ -18,7 +18,9 @@ export const product: Product = {
   "stockRemaining": 12,
   "badge": "TALI MATI PRAKTIS SLIP-ON",
   "image": "/assets/products/PDH-Doff-Tali-Mati.webp",
-  "gallery": ["/assets/products/PDH-Doff-Tali-Mati.webp"],
+  "gallery": [
+    "/assets/products/PDH-Doff-Tali-Mati.webp"
+  ],
   "specs": {
     "material": "100% Full Kulit Sapi Asli Doff Halus Lembut",
     "outsole": "Sol Karet Formal PDH Bunyi Mantap Tidak Licin",

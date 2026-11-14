@@ -21,9 +21,9 @@ export const product: Product = {
   "inStock": true,
   "stockRemaining": 8,
   "badge": "FREE KEYCHAIN + KAOS KAKI",
-  "image": "/assets/aistudio/Douglas_e7190b01.png",
+  "image": "/assets/products/Douglas.webp",
   "gallery": [
-    "/assets/aistudio/Douglas_e7190b01.png"
+    "/assets/products/Douglas.webp"
   ],
   "specs": {
     "material": "100% Full Kulit Sapi Asli Grade A Halus + Perforated Mikro",

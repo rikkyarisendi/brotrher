@@ -18,7 +18,9 @@ export const product: Product = {
   "stockRemaining": 12,
   "badge": "TOWER SUPER KILAP",
   "image": "/assets/products/Tower-Kilap.webp",
-  "gallery": ["/assets/products/Tower-Kilap.webp"],
+  "gallery": [
+    "/assets/products/Tower-Kilap.webp"
+  ],
   "specs": {
     "material": "100% Full Kulit Sapi Super Kilap Patent Glossy",
     "outsole": "Sol Radial Komando Cengkeram Anti-Slip",

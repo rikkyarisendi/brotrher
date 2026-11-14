@@ -21,9 +21,9 @@ export const product: Product = {
   "inStock": true,
   "stockRemaining": 5,
   "badge": "SPECIAL SURVIVAL EDITION",
-  "image": "/assets/aistudio/Fitgo-Tawon-Rocky_60a7bc19.png",
+  "image": "/assets/products/Fitgo-Tawon-Rocky.webp",
   "gallery": [
-    "/assets/aistudio/Fitgo-Tawon-Rocky_60a7bc19.png"
+    "/assets/products/Fitgo-Tawon-Rocky.webp"
   ],
   "specs": {
     "material": "Kulit Sapi Asli Pilihan + Jala Karet Tawon + Cordura",

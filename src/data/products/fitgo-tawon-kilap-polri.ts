@@ -21,10 +21,9 @@ export const product: Product = {
   "inStock": true,
   "stockRemaining": 6,
   "badge": "RADIAL KOMANDO RESMI",
-  "image": "/assets/aistudio/Fitgo-Tawon-Kilap-Polri-Radial_d12475d5.png",
+  "image": "/assets/products/Fitgo-Tawon-Kilap-Polri-Radial.webp",
   "gallery": [
-    "/assets/aistudio/Fitgo-Tawon-Kilap-Polri-Radial_d12475d5.png",
-    "/assets/products/Fitgo-Tawon-Kilap-Polri.webp"
+    "/assets/products/Fitgo-Tawon-Kilap-Polri-Radial.webp"
   ],
   "specs": {
     "material": "100% Kulit Sapi Asli Super Kilap + Jala Tawon + Lis Putih",

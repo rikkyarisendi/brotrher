@@ -20,9 +20,9 @@ export const product: Product = {
   "inStock": true,
   "stockRemaining": 11,
   "badge": "FREE KEYCHAIN + KAOS KAKI",
-  "image": "/assets/aistudio/LGR-Bravo-Kilap_566d399a.png",
+  "image": "/assets/products/LGR-Bravo-Kilap.webp",
   "gallery": [
-    "/assets/aistudio/LGR-Bravo-Kilap_566d399a.png"
+    "/assets/products/LGR-Bravo-Kilap.webp"
   ],
   "specs": {
     "material": "100% Kulit Sapi Asli Kilap Premium",

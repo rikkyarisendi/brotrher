@@ -22,9 +22,9 @@ export const product: Product = {
   "inStock": true,
   "stockRemaining": 9,
   "badge": "EDISI RESMI PM TNI",
-  "image": "/assets/aistudio/Fitgo-Mamba-PM-TNI_6bb02b4d.png",
+  "image": "/assets/products/Fitgo-Mamba-PM-TNI.webp",
   "gallery": [
-    "/assets/aistudio/Fitgo-Mamba-PM-TNI_6bb02b4d.png"
+    "//assets//products//Fitgo-Mamba-PM-TNI.webp"
   ],
   "specs": {
     "material": "100% Kulit Sapi Asli Glossy Kilap Kombinasi Putih PM",

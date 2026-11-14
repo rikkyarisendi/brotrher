@@ -20,9 +20,9 @@ export const product: Product = {
   "inStock": true,
   "stockRemaining": 14,
   "badge": "FREE KEYCHAIN RESMI",
-  "image": "/assets/aistudio/Brotrher-PDH-SUS_b56793db.png",
+  "image": "/assets/products/Brotrher-PDH-SUS.webp",
   "gallery": [
-    "/assets/aistudio/Brotrher-PDH-SUS_b56793db.png"
+    "/assets/products/Brotrher-PDH-SUS.webp"
   ],
   "specs": {
     "material": "100% Kulit Sapi Asli Grade A Halus",

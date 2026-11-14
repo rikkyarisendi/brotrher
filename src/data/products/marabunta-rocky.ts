@@ -8,9 +8,9 @@ export const product: Product = {
   "categories": ["pdl", "tali-putar", "full-kulit", "komando"],
   "categoryLabel": "KOMANDO",
   "tagline": "Sepatu PDL tempur laras tinggi Marabunta Rocky full kulit sapi doff dengan sol molded rocky tebal agresif dan knop tali kawat baja putar Fitgo.",
-  "price": 699000,
+  "price": 657900,
   "originalPrice": 875000,
-  "discountPercent": 20,
+  "discountPercent": 25,
   "rating": 5.0,
   "reviewCount": 1580,
   "isBestSeller": true,
@@ -18,7 +18,9 @@ export const product: Product = {
   "stockRemaining": 12,
   "badge": "MOLDED ROCKY COMMODORE",
   "image": "/assets/products/Marabunta-Rocky.webp",
-  "gallery": ["/assets/products/Marabunta-Rocky.webp"],
+  "gallery": [
+    "/assets/products/Marabunta-Rocky.webp"
+  ],
   "specs": {
     "material": "100% Full Kulit Sapi Asli Doff Premium Tebal 1.8mm",
     "outsole": "Outsole Molded Rocky Grip Ekstrem Cengkeram Segala Medan",

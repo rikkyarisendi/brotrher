@@ -18,7 +18,9 @@ export const product: Product = {
   "stockRemaining": 12,
   "badge": "LANTAS PATROLI RESMI",
   "image": "/assets/products/Saga-Lantas-Kilap.webp",
-  "gallery": ["/assets/products/Saga-Lantas-Kilap.webp"],
+  "gallery": [
+    "/assets/products/Saga-Lantas-Kilap.webp"
+  ],
   "specs": {
     "material": "Kulit Sapi Patent Super Kilap + Cordura + Aksen Lis Putih Lantas",
     "outsole": "Sol Radial Komando Gigi Balok 4cm",

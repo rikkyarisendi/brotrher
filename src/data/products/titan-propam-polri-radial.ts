@@ -18,7 +18,9 @@ export const product: Product = {
   "stockRemaining": 12,
   "badge": "PROPAM POLRI RESMI",
   "image": "/assets/products/Titan-Propam-Polri-Radial.webp",
-  "gallery": ["/assets/products/Titan-Propam-Polri-Radial.webp"],
+  "gallery": [
+    "/assets/products/Titan-Propam-Polri-Radial.webp"
+  ],
   "specs": {
     "material": "Kulit Sapi Super Kilap + Cordura + Aksen Lis Putih Propam",
     "outsole": "Sol Radial Komando Gigi Balok 4cm",

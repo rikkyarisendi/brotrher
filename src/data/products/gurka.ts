@@ -22,9 +22,9 @@ export const product: Product = {
   "inStock": true,
   "stockRemaining": 8,
   "badge": "FREE KEYCHAIN + KAOS KAKI",
-  "image": "/assets/aistudio/Gurka_67333ae3.png",
+  "image": "public/assets/products/Gurka.webp",
   "gallery": [
-    "/assets/aistudio/Gurka_67333ae3.png"
+    "public/assets/products/Gurka.webp"
   ],
   "specs": {
     "material": "100% Kulit Sapi Asli Olahan Lembut",

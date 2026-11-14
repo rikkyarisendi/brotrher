@@ -3,20 +3,20 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://brotrher.com/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
     <image:image>
-      <image:loc>https://brotrher.com/assets/aistudio/Artboard_10_5355e980.png</image:loc>
+      <image:loc>https://brotrher.com/assets/products/slide1-marabunta.webp</image:loc>
       <image:title>Sepatu PDL Brotrher Marabunta Rocky Fitgo Kulit Sapi Asli</image:title>
       <image:caption>Sepatu dinas TNI, Polri, Security kulit sapi asli sol jahit keliling tali putar Fitgo</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://brotrher.com/assets/aistudio/Artboard_10_copy_2_863ddb50.png</image:loc>
+      <image:loc>https://brotrher.com/assets/products/slide3-tawon.webp</image:loc>
       <image:title>Sepatu PDL Brotrher Fitgo Tawon Jala Karet</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://brotrher.com/assets/aistudio/HORIZONTAL-LOGO_5b0c85dc.png</image:loc>
+      <image:loc>https://brotrher.com/assets/brand/Header-Logo-Brotrher.webp</image:loc>
       <image:title>Logo Resmi Brotrher Boots Indonesia</image:title>
     </image:image>
   </url>

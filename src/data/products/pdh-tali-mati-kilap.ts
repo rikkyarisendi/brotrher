@@ -18,7 +18,9 @@ export const product: Product = {
   "stockRemaining": 12,
   "badge": "KILAP TANPA SEMIR TALI MATI",
   "image": "/assets/products/PDH-Tali-Mati-Kilap.webp",
-  "gallery": ["/assets/products/PDH-Tali-Mati-Kilap.webp"],
+  "gallery": [
+    "/assets/products/PDH-Tali-Mati-Kilap.webp"
+  ],
   "specs": {
     "material": "100% Full Kulit Sapi Super Kilap (Glossy Patent)",
     "outsole": "Rubber Sole Formal Anti-Slip",

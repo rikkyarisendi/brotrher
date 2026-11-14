@@ -183,8 +183,13 @@ export function dbRowToHeroSlide(row: SupabaseHeroSlideRow): HeroSlide {
     priceDisplay: localMatch?.priceDisplay || 'PROMO SPESIAL',
     discountBadge: localMatch?.discountBadge,
     featuredTag: localMatch?.featuredTag || row.title || undefined,
-    image: row.image || localMatch?.image || '/assets/aistudio/Artboard_10_5355e980.png',
-    productId: row.cta_link?.startsWith('#') ? localMatch?.productId : row.cta_link || localMatch?.productId,
+    image: row.image || localMatch?.image || '/assets/products/Bronson.webp',
+    // cta_link dari database hanya dipakai kalau mengarah ke produk yang benar-benar ada;
+    // kalau tidak (mis. 'brotrher-fitgo-tawon'), pakai productId lokal yang sudah benar.
+    productId:
+      row.cta_link && !row.cta_link.startsWith('#') && localProductMap.has(row.cta_link)
+        ? row.cta_link
+        : localMatch?.productId,
     callouts: localMatch?.callouts,
   };
 }

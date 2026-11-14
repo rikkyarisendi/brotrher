@@ -18,7 +18,9 @@ export const product: Product = {
   "stockRemaining": 12,
   "badge": "COMBAT WARRIOR GRADE",
   "image": "/assets/products/X-War.webp",
-  "gallery": ["/assets/products/X-War.webp"],
+  "gallery": [
+    "/assets/products/X-War.webp"
+  ],
   "specs": {
     "material": "Kulit Sapi Asli Grade A + Cordura Armor Anti Sobek",
     "outsole": "Sol Radial Komando High Traction Anti-Slip",

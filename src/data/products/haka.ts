@@ -21,9 +21,9 @@ export const product: Product = {
   "inStock": true,
   "stockRemaining": 14,
   "badge": "FREE KEYCHAIN + KAOS KAKI",
-  "image": "/assets/aistudio/Haka_ba487874.png",
+  "image": "public/assets/products/Haka.webp",
   "gallery": [
-    "/assets/aistudio/Haka_ba487874.png"
+    "public/assets/products/Haka.webp"
   ],
   "specs": {
     "material": "100% Kulit Sapi Asli + Kanvas Cordura Waterproof",

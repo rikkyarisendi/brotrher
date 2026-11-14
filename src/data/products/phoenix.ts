@@ -18,7 +18,9 @@ export const product: Product = {
   "stockRemaining": 12,
   "badge": "HIGH TRACTION GRIP",
   "image": "/assets/products/Phoenix.webp",
-  "gallery": ["/assets/products/Phoenix.webp"],
+  "gallery": [
+    "/assets/products/Phoenix.webp"
+  ],
   "specs": {
     "material": "Kulit Sapi Asli + Cordura Heavy Duty Tahan Air",
     "outsole": "Aggressive Chevron Lug Outsole Anti-Slip",

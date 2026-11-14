@@ -18,7 +18,9 @@ export const product: Product = {
   "stockRemaining": 12,
   "badge": "STEALTH TACTICAL",
   "image": "/assets/products/Phantom-Radial.webp",
-  "gallery": ["/assets/products/Phantom-Radial.webp"],
+  "gallery": [
+    "/assets/products/Phantom-Radial.webp"
+  ],
   "specs": {
     "material": "Kulit Sapi Asli Doff + Cordura Stealth Waterproof",
     "outsole": "Sol Radial Komando Cengkeram Anti-Slip",

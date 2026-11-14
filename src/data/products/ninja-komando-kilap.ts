@@ -18,7 +18,9 @@ export const product: Product = {
   "stockRemaining": 12,
   "badge": "KOMANDO KILAP FITGO",
   "image": "/assets/products/Ninja-Komando-Kilap.webp",
-  "gallery": ["/assets/products/Ninja-Komando-Kilap.webp"],
+  "gallery": [
+    "/assets/products/Ninja-Komando-Kilap.webp"
+  ],
   "specs": {
     "material": "Kulit Sapi Asli Patent Glossy + Cordura Tactical Komando",
     "outsole": "Sol Radial Komando Cengkeram Anti-Slip",

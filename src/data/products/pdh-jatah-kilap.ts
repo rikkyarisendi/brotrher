@@ -21,9 +21,9 @@ export const product: Product = {
   "inStock": true,
   "stockRemaining": 16,
   "badge": "SUPER KILAP + FREE BONUS",
-  "image": "/assets/aistudio/PDH-Jatah_3b3839a4.png",
+  "image": "/assets/products/PDH-Jatah.webp",
   "gallery": [
-    "/assets/aistudio/PDH-Jatah_3b3839a4.png",
+    "/assets/products/PDH-Jatah.webp",
     "/assets/products/PDH-Jatah_1.webp"
   ],
   "specs": {
