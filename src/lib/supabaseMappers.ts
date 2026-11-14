@@ -40,6 +40,17 @@ export interface ProductMetaOverride {
   isBestSeller?: boolean;
 }
 
+// Override hero slide dari store_config (key 'hero_slide_meta'):
+// dipakai StoreContext untuk menimpa tampilan slide (harga, badge, tag, produk, kode promo)
+// tanpa mengubah baris hero_slides di database.
+export interface HeroSlideMetaOverride {
+  priceDisplay?: string;
+  discountBadge?: string;
+  featuredTag?: string;
+  productId?: string;
+  promoCode?: string;
+}
+
 const localProductMap = new Map<string, Product>(PRODUCTS.map((p) => [p.id, p]));
 const localSlideMap = new Map<string, HeroSlide>(HERO_SLIDES.map((s) => [s.id, s]));
 
@@ -165,10 +176,13 @@ export function productToDbRow(product: Product): SupabaseProductRow {
   };
 }
 
-export function dbRowToHeroSlide(row: SupabaseHeroSlideRow): HeroSlide {
+export function dbRowToHeroSlide(
+  row: SupabaseHeroSlideRow,
+  metaOverrides?: Record<string, HeroSlideMetaOverride>
+): HeroSlide {
   const localMatch = localSlideMap.get(row.id);
 
-  return {
+  const slide: HeroSlide = {
     id: row.id,
     badge: row.badge || localMatch?.badge || 'SEPATU PDL TAKTIKAL',
     headline: row.title || localMatch?.headline || 'BROTRHER BOOTS',
@@ -192,6 +206,21 @@ export function dbRowToHeroSlide(row: SupabaseHeroSlideRow): HeroSlide {
         : localMatch?.productId,
     callouts: localMatch?.callouts,
   };
+
+  // Terapkan override admin (hero_slide_meta) kalau ada untuk slide ini,
+  // sama seperti yang dilakukan StoreContext untuk slide lokal.
+  const override = metaOverrides?.[row.id];
+  if (override) {
+    return {
+      ...slide,
+      priceDisplay: override.priceDisplay ?? slide.priceDisplay,
+      discountBadge: override.discountBadge ?? slide.discountBadge,
+      featuredTag: override.featuredTag ?? slide.featuredTag,
+      productId: override.productId ?? slide.productId,
+      promoCode: override.promoCode ?? slide.promoCode,
+    };
+  }
+  return slide;
 }
 
 export function heroSlideToDbRow(slide: HeroSlide, index: number): SupabaseHeroSlideRow {

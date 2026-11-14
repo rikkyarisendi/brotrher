@@ -57,8 +57,14 @@ export const MobileStickyCommandBar: React.FC<MobileStickyCommandBarProps> = ({
 
   return (
     <div className="fixed bottom-3.5 inset-x-3.5 sm:inset-x-8 z-40 pb-[env(safe-area-inset-bottom)] pointer-events-none">
-      <div className="max-w-4xl mx-auto flex justify-end">
-        <AnimatePresence mode="wait">
+      {/* Saat minimize, pill menempel ke tepi kanan layar (tanpa max-w-4xl) supaya
+          berdampingan dengan tombol scroll-to-top; saat maximize, bar tetap
+          di tengah dengan lebar max-w-4xl seperti sebelumnya. */}
+      <div className={isMinimized ? 'flex justify-end' : 'max-w-4xl mx-auto flex justify-end'}>
+        {/* mode="popLayout": bar keluar dan pill masuk BERSAMAAN. Sebelumnya
+            mode="wait" menunggu bar selesai hilang dulu baru pill muncul,
+            sehingga transisinya terasa kesendat. */}
+        <AnimatePresence mode="popLayout">
           {!isMinimized ? (
             /* ================= FULL EXPANDED COMMAND BAR ================= */
             <motion.div
