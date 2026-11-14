@@ -38,6 +38,11 @@ function AppContent() {
   const [quickViewProduct, setQuickViewProduct] = useState<Product | null>(null);
   const [editingTargetProduct, setEditingTargetProduct] = useState<Product | null>(null);
 
+  // Overlay bawah default minimize — dibuka hanya kalau pengunjung yang meminta.
+  // State ini dibagi ke ScrollToTop supaya jarak tombol ke overlay selalu sama,
+  // baik saat overlay besar maupun minimize.
+  const [isBarMinimized, setIsBarMinimized] = useState(true);
+
   // Clean secret admin route from URL bar (both hash and pathname)
   const cleanSecretUrl = () => {
     const hash = window.location.hash.toLowerCase();
@@ -239,10 +244,12 @@ function AppContent() {
         cartItems={cartItems}
         onOpenCart={() => setIsCartOpen(true)}
         onQuickCheckout={() => setIsCartOpen(true)}
+        isMinimized={isBarMinimized}
+        onToggleMinimize={setIsBarMinimized}
       />
 
       {/* Floating Scroll to Top Button */}
-      <ScrollToTop />
+      <ScrollToTop isBarMinimized={isBarMinimized} />
 
     </div>
   );

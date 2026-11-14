@@ -6,30 +6,41 @@ interface MobileStickyCommandBarProps {
   cartItems: any[];
   onOpenCart: () => void;
   onQuickCheckout: () => void;
+  isMinimized: boolean;
+  onToggleMinimize: (minimized: boolean) => void;
 }
 
-export const MobileStickyCommandBar: React.FC<MobileStickyCommandBarProps> = () => {
+export const MobileStickyCommandBar: React.FC<MobileStickyCommandBarProps> = ({
+  onOpenCart,
+  onQuickCheckout,
+  isMinimized,
+  onToggleMinimize,
+}) => {
   const [currentOfferIndex, setCurrentOfferIndex] = useState(0);
-  const [isMinimized, setIsMinimized] = useState(false);
 
+  // CTA tiap penawaran — sebelumnya semuanya cuma <a href="#catalog">,
+  // padahal App sudah menyediakan onOpenCart & onQuickCheckout (buka drawer keranjang).
   const offers = [
     {
       icon: <Flame className="w-4 h-4 text-[#F8B704] fill-[#F8B704] shrink-0 animate-bounce" />,
       tag: 'PROMO HARI INI',
       text: 'DISKON S/D 20% + BONUS KAOS KAKI TEBAL BROTRHER',
       cta: 'KLAIM PROMO',
+      action: 'catalog' as const,
     },
     {
       icon: <ShieldCheck className="w-4 h-4 text-[#22C55E] shrink-0" />,
       tag: 'GARANSI PABRIK',
       text: '100% KULIT SAPI ASLI • GARANSI TUKAR UKURAN',
       cta: 'PESAN SEKARANG',
+      action: 'cart' as const,
     },
     {
       icon: <Truck className="w-4 h-4 text-[#F8B704] shrink-0" />,
       tag: 'KEMUDAHAN ORDER',
       text: 'BISA COD (BAYAR DI TEMPAT) SE-INDONESIA',
       cta: 'AMBIL SEKARANG',
+      action: 'checkout' as const,
     },
   ];
 
@@ -84,18 +95,29 @@ export const MobileStickyCommandBar: React.FC<MobileStickyCommandBarProps> = () 
 
               {/* Right Side: CTA Button + Minimize Button */}
               <div className="shrink-0 flex items-center gap-2">
-                <a
-                  href="#catalog"
-                  className="h-9 sm:h-11 px-3.5 sm:px-6 bg-[#F8B704] hover:bg-[#FFC82D] text-[#0B0D11] font-display text-xs sm:text-sm font-black tracking-wider uppercase flex items-center justify-center gap-1.5 shadow-[0_0_18px_rgba(248,183,4,0.4)] hover:shadow-[0_0_24px_rgba(248,183,4,0.6)] active:scale-95 transition-all cursor-pointer chamfer-tactical"
-                >
-                  <span>{activeOffer.cta}</span>
-                  <ArrowRight className="w-3.5 h-3.5" />
-                </a>
+                {activeOffer.action === 'catalog' ? (
+                  <a
+                    href="#catalog"
+                    className="h-9 sm:h-11 px-3.5 sm:px-6 bg-[#F8B704] hover:bg-[#FFC82D] text-[#0B0D11] font-display text-xs sm:text-sm font-black tracking-wider uppercase flex items-center justify-center gap-1.5 shadow-[0_0_18px_rgba(248,183,4,0.4)] hover:shadow-[0_0_24px_rgba(248,183,4,0.6)] active:scale-95 transition-all cursor-pointer chamfer-tactical"
+                  >
+                    <span>{activeOffer.cta}</span>
+                    <ArrowRight className="w-3.5 h-3.5" />
+                  </a>
+                ) : (
+                  <button
+                    type="button"
+                    onClick={activeOffer.action === 'checkout' ? onQuickCheckout : onOpenCart}
+                    className="h-9 sm:h-11 px-3.5 sm:px-6 bg-[#F8B704] hover:bg-[#FFC82D] text-[#0B0D11] font-display text-xs sm:text-sm font-black tracking-wider uppercase flex items-center justify-center gap-1.5 shadow-[0_0_18px_rgba(248,183,4,0.4)] hover:shadow-[0_0_24px_rgba(248,183,4,0.6)] active:scale-95 transition-all cursor-pointer chamfer-tactical"
+                  >
+                    <span>{activeOffer.cta}</span>
+                    <ArrowRight className="w-3.5 h-3.5" />
+                  </button>
+                )}
 
                 {/* Minimize Trigger Button */}
                 <button
                   type="button"
-                  onClick={() => setIsMinimized(true)}
+                  onClick={() => onToggleMinimize(true)}
                   className="p-1.5 sm:p-2 rounded chamfer-tactical-sm bg-black/40 hover:bg-[#F8B704]/20 text-[#94A3B8] hover:text-[#F8B704] border border-white/10 hover:border-[#F8B704]/40 transition-all cursor-pointer"
                   title="Sembunyikan Overlay (Minimize)"
                   aria-label="Sembunyikan Overlay"
@@ -113,7 +135,7 @@ export const MobileStickyCommandBar: React.FC<MobileStickyCommandBarProps> = () 
               exit={{ opacity: 0, y: 25, scale: 0.8 }}
               transition={{ type: 'spring', stiffness: 380, damping: 26 }}
               type="button"
-              onClick={() => setIsMinimized(false)}
+              onClick={() => onToggleMinimize(false)}
               className="pointer-events-auto flex items-center gap-2 px-3.5 py-2 sm:px-4 sm:py-2.5 rounded-lg military-glass-dock border border-[#F8B704]/70 bg-[#0B0D11]/90 shadow-[0_12px_32px_rgba(0,0,0,0.85)] hover:shadow-[0_0_20px_rgba(248,183,4,0.45)] hover:border-[#F8B704] transition-all cursor-pointer group"
               title="Klik untuk membuka penawaran promo"
               aria-label="Buka Promo Hari Ini"
