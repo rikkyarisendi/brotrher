@@ -18,7 +18,9 @@ export const product: Product = {
   "stockRemaining": 12,
   "badge": "FORMAL KILAP ELEGAN",
   "image": "/assets/products/Pantofel-Kilap.webp",
-  "gallery": ["/assets/products/Pantofel-Kilap.webp"],
+  "gallery": [
+    "/assets/products/Pantofel-Kilap.webp"
+  ],
   "specs": {
     "material": "100% Full Kulit Sapi Asli Glossy Super Kilap",
     "outsole": "Sol Formal Karet Tahan Selip",

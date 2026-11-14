@@ -136,7 +136,7 @@ export const FaqSection: React.FC = () => {
             </span>
           </div>
           <a
-            href="https://wa.me/6282123456789?text=Halo%20Admin%20Brotrher%20Boots,%20saya%20ingin%20konsultasi%20sepatu%20PDL"
+            href="https://wa.me/6282217074200?text=Halo%20Admin%20Brotrher%20Boots,%20saya%20ingin%20konsultasi%20sepatu%20PDL"
             target="_blank"
             rel="noopener noreferrer"
             className="px-4 py-2 bg-[#F8B704] hover:bg-[#FFC82D] text-[#0B0D11] text-xs font-display font-black uppercase chamfer-tactical-sm transition-all"

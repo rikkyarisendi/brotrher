@@ -21,9 +21,9 @@ export const product: Product = {
   "inStock": true,
   "stockRemaining": 14,
   "badge": "FREE KEYCHAIN + KAOS KAKI",
-  "image": "/assets/aistudio/Saga-Lantas-6inch_89e166df.png",
+  "image": "/assets/products/Saga-Lantas-6inch.webp",
   "gallery": [
-    "/assets/aistudio/Saga-Lantas-6inch_89e166df.png"
+    "/assets/products/Saga-Lantas-6inch.webp"
   ],
   "specs": {
     "material": "Kulit Sapi Asli + Jala Karet Tawon Taktis",

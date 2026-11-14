@@ -50,45 +50,7 @@ export const HomePage: React.FC<HomePageProps> = ({
       {/* 2. Hero Slider Promo & Upsell */}
       <HeroSlider
         onSelectProduct={(productId) => {
-          let found = products.find((p) => p.id === productId);
-          if (!found) {
-            const slide = heroSlides.find(
-              (s) => s.productId === productId || s.id === productId
-            );
-            if (slide) {
-              const parsedPrice = parseInt((slide.priceDisplay || '').replace(/\D/g, ''), 10) || 695000;
-              const origPrice = Math.round((parsedPrice * 1.24) / 1000) * 1000;
-              found = {
-                id: slide.productId || slide.id,
-                code: 'BR-FLAGSHIP',
-                name: slide.headline,
-                category: 'tali-putar',
-                categories: ['pdl', 'tali-putar', 'full-kulit'],
-                categoryLabel: 'TALI PUTAR',
-                tagline: slide.subtext,
-                price: parsedPrice,
-                originalPrice: origPrice,
-                discountPercent: origPrice > parsedPrice ? Math.round(((origPrice - parsedPrice) / origPrice) * 100) : 0,
-                rating: 5.0,
-                reviewCount: 4210,
-                isBestSeller: true,
-                inStock: true,
-                stockRemaining: 8,
-                badge: slide.discountBadge,
-                image: slide.image,
-                gallery: [slide.image],
-                specs: {
-                  material: '100% Kulit Sapi Asli + Cordura Canvas Waterproof',
-                  outsole: 'Rubber Anti-Slip Radial Compound',
-                  zipper: 'Fitgo Lacing System Otomatis',
-                  lacing: 'Tali Baja Import Anti Putus',
-                  safety: 'Pelindung Tumit & Mata Kaki Kokoh',
-                  craftsmanship: 'Sol Dijahit Melingkar Tembus Dalam',
-                },
-                sizes: [39, 40, 41, 42, 43, 44, 45],
-              };
-            }
-          }
+          const found = products.find((p) => p.id === productId);
           if (found) onQuickView(found);
         }}
         onOpenCart={onOpenCart}

@@ -21,9 +21,9 @@ export const product: Product = {
   "inStock": true,
   "stockRemaining": 15,
   "badge": "MODEL NINJA FAVORIT",
-  "image": "/assets/aistudio/New-Ninja_3531b617.png",
+  "image": "/assets/products/New-Ninja.webp",
   "gallery": [
-    "/assets/aistudio/New-Ninja_3531b617.png"
+    "/assets/products/New-Ninja.webp"
   ],
   "specs": {
     "material": "Kulit Sapi Asli Olahan Lembut + Webbing Taktis",

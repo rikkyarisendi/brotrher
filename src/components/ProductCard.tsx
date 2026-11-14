@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Eye, Check, ShoppingCart, Edit3 } from 'lucide-react';
+import { Eye, Check, ShoppingBasket, Edit3 } from 'lucide-react';
 import { Product } from '../types/tactical';
 
 interface ProductCardProps {
@@ -192,7 +192,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({
               </>
             ) : (
               <>
-                <ShoppingCart className="w-4 h-4 fill-current" />
+                <ShoppingBasket className="w-4 h-4 fill-current" />
                 <span>MASUKAN KERANJANG</span>
               </>
             )}

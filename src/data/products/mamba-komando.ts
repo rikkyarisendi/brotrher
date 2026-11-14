@@ -21,9 +21,9 @@ export const product: Product = {
   "inStock": true,
   "stockRemaining": 15,
   "badge": "BEST SELLER KOMANDO",
-  "image": "/assets/aistudio/Mamba-Komando_04fb63c5.png",
+  "image": "/assets/products/Mamba-Komando.webp",
   "gallery": [
-    "/assets/aistudio/Mamba-Komando_04fb63c5.png"
+    "/assets/products/Mamba-Komando.webp"
   ],
   "specs": {
     "material": "100% Kulit Sapi Asli Grade A + Kanvas Cordura",

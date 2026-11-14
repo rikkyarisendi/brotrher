@@ -18,7 +18,9 @@ export const product: Product = {
   "stockRemaining": 12,
   "badge": "DINAS PM / PROVOS RESMI",
   "image": "/assets/products/New-Mamba-Full-Kulit-2.webp",
-  "gallery": ["/assets/products/New-Mamba-Full-Kulit-2.webp"],
+  "gallery": [
+    "/assets/products/New-Mamba-Full-Kulit-2.webp"
+  ],
   "specs": {
     "material": "100% Full Kulit Sapi Asli Doff + Aksen Lis Putih Provos",
     "outsole": "Sol Radial Komando Tebal Gigi Balok",

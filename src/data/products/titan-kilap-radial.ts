@@ -18,7 +18,9 @@ export const product: Product = {
   "stockRemaining": 12,
   "badge": "SUPER KILAP RADIAL",
   "image": "/assets/products/Titan-Kilap-Radial.webp",
-  "gallery": ["/assets/products/Titan-Kilap-Radial.webp"],
+  "gallery": [
+    "/assets/products/Titan-Kilap-Radial.webp"
+  ],
   "specs": {
     "material": "Kulit Sapi Patent Super Kilap + Cordura Tactical",
     "outsole": "Sol Radial Komando Cengkeram Anti-Slip",

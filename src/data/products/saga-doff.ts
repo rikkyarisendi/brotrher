@@ -18,7 +18,9 @@ export const product: Product = {
   "stockRemaining": 12,
   "badge": "FITGO SAGA TACTICAL",
   "image": "/assets/products/Saga-Doff.webp",
-  "gallery": ["/assets/products/Saga-Doff.webp"],
+  "gallery": [
+    "/assets/products/Saga-Doff.webp"
+  ],
   "specs": {
     "material": "Kulit Sapi Asli Doff 1.8mm + Cordura Waterproof",
     "outsole": "Sol Radial Komando Anti-Slip",

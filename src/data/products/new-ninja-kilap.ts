@@ -18,7 +18,9 @@ export const product: Product = {
   "stockRemaining": 12,
   "badge": "FITGO SUPER KILAP",
   "image": "/assets/products/New-Ninja-Kilap.webp",
-  "gallery": ["/assets/products/New-Ninja-Kilap.webp"],
+  "gallery": [
+    "/assets/products/New-Ninja-Kilap.webp"
+  ],
   "specs": {
     "material": "Kulit Sapi Asli Patent Super Kilap + Webbing Taktis",
     "outsole": "Sol Radial Komando Anti-Slip",

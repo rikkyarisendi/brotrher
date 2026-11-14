@@ -29,13 +29,7 @@ function AppContent() {
     } catch (e) {
       console.error(e);
     }
-    return [
-      {
-        product: products[0],
-        selectedSize: 42,
-        quantity: 1,
-      },
-    ];
+    return [];
   });
 
   const [isCartOpen, setIsCartOpen] = useState(false);

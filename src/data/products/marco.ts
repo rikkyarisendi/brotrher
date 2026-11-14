@@ -20,9 +20,9 @@ export const product: Product = {
   "inStock": true,
   "stockRemaining": 12,
   "badge": "FREE KEYCHAIN + KAOS KAKI",
-  "image": "/assets/aistudio/Marco_cd8375be.png",
+  "image": "/assets/products/Marco.webp",
   "gallery": [
-    "/assets/aistudio/Marco_cd8375be.png"
+    "/assets/products/Marco.webp"
   ],
   "specs": {
     "material": "Kulit Sapi Asli Olahan Lembut + Cordura",

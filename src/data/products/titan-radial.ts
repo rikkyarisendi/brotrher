@@ -18,7 +18,9 @@ export const product: Product = {
   "stockRemaining": 12,
   "badge": "TITAN RADIAL TACTICAL",
   "image": "/assets/products/Titan-Radial.webp",
-  "gallery": ["/assets/products/Titan-Radial.webp"],
+  "gallery": [
+    "/assets/products/Titan-Radial.webp"
+  ],
   "specs": {
     "material": "Kulit Sapi Asli Doff + Cordura Heavy Duty Waterproof",
     "outsole": "Sol Radial Komando Karet Mentah",

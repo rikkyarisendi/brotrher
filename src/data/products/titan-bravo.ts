@@ -18,7 +18,9 @@ export const product: Product = {
   "stockRemaining": 12,
   "badge": "FULL KULIT BRAVO",
   "image": "/assets/products/Titan-Bravo.webp",
-  "gallery": ["/assets/products/Titan-Bravo.webp"],
+  "gallery": [
+    "/assets/products/Titan-Bravo.webp"
+  ],
   "specs": {
     "material": "100% Full Kulit Sapi Asli Doff 1.8mm",
     "outsole": "Sol Bravo Komando Rubber Mantap",

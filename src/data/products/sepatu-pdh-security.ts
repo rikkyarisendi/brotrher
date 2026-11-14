@@ -18,7 +18,12 @@ export const product: Product = {
   "stockRemaining": 12,
   "badge": "RESMI SATPAM / SECURITY",
   "image": "/assets/products/Sepatu-PDH-Security.webp",
-  "gallery": ["/assets/products/Sepatu-PDH-Security.webp", "/assets/products/Sepatu-PDH-Security-2.webp", "/assets/products/Sepatu-PDH-Security-3.webp", "/assets/products/Sepatu-PDH-Security-4.webp"],
+  "gallery": [
+    "/assets/products/Sepatu-PDH-Security.webp",
+    "/assets/products/Sepatu-PDH-Security-2.webp",
+    "/assets/products/Sepatu-PDH-Security-3.webp",
+    "/assets/products/Sepatu-PDH-Security-4.webp"
+  ],
   "specs": {
     "material": "100% Full Kulit Sapi Asli Doff Berkualitas",
     "outsole": "Sol Formal Karet Anti-Slip Bunyi Mantap",

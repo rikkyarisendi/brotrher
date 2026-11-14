@@ -18,7 +18,9 @@ export const product: Product = {
   "stockRemaining": 12,
   "badge": "EDISI RESMI POLRI",
   "image": "/assets/products/Saga-Polri.webp",
-  "gallery": ["/assets/products/Saga-Polri.webp"],
+  "gallery": [
+    "/assets/products/Saga-Polri.webp"
+  ],
   "specs": {
     "material": "Kulit Sapi Asli Doff + Cordura + Lis Putih Polri",
     "outsole": "Sol Radial Komando Anti Minyak & Licin",

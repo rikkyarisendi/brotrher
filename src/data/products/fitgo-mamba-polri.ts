@@ -20,9 +20,9 @@ export const product: Product = {
   "inStock": true,
   "stockRemaining": 11,
   "badge": "FREE KEYCHAIN + KAOS KAKI",
-  "image": "/assets/aistudio/Fitgo-Mamba-Polri_1e5ffba2.png",
+  "image": "/assets/products/Fitgo-Mamba-Polri.webp",
   "gallery": [
-    "/assets/aistudio/Fitgo-Mamba-Polri_1e5ffba2.png"
+    "//assets//products//Fitgo-Mamba-Polri.webp"
   ],
   "specs": {
     "material": "100% Full Kulit Sapi Asli Kilap Premium",

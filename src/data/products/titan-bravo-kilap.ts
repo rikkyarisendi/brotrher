@@ -18,7 +18,9 @@ export const product: Product = {
   "stockRemaining": 12,
   "badge": "BRAVO SUPER KILAP",
   "image": "/assets/products/Titan-Bravo-Kilap.webp",
-  "gallery": ["/assets/products/Titan-Bravo-Kilap.webp"],
+  "gallery": [
+    "/assets/products/Titan-Bravo-Kilap.webp"
+  ],
   "specs": {
     "material": "100% Full Kulit Sapi Super Kilap Patent",
     "outsole": "Sol Bravo Komando Heavy Duty Anti-Slip",

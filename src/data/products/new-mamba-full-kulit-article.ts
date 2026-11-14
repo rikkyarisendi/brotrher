@@ -18,7 +18,9 @@ export const product: Product = {
   "stockRemaining": 12,
   "badge": "100% FULL KULIT SAPI",
   "image": "/assets/products/New-Mamba-Full-Kulit.webp",
-  "gallery": ["/assets/products/New-Mamba-Full-Kulit.webp"],
+  "gallery": [
+    "/assets/products/New-Mamba-Full-Kulit.webp"
+  ],
   "specs": {
     "material": "100% Full Kulit Sapi Asli Doff Premium 1.8mm",
     "outsole": "Sol Radial Karet Alam Komando",

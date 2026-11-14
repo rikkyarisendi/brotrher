@@ -18,7 +18,9 @@ export const product: Product = {
   "stockRemaining": 12,
   "badge": "SUPER KILAP TANPA SEMIR",
   "image": "/assets/products/Fitgo-Mamba-Kilap.webp",
-  "gallery": ["/assets/products/Fitgo-Mamba-Kilap.webp"],
+  "gallery": [
+    "/assets/products/Fitgo-Mamba-Kilap.webp"
+  ],
   "specs": {
     "material": "100% Full Kulit Sapi Asli Patent Leather Super Kilap",
     "outsole": "Rubber Outsole Radial Anti-Slip Tangguh",

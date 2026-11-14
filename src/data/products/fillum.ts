@@ -20,9 +20,9 @@ export const product: Product = {
   "inStock": true,
   "stockRemaining": 12,
   "badge": "FREE KEYCHAIN + KAOS KAKI",
-  "image": "/assets/aistudio/Brotrher-Fillum_13f221fb.png",
+  "image": "/assets/products/Brotrher-Fillum.webp",
   "gallery": [
-    "/assets/aistudio/Brotrher-Fillum_13f221fb.png"
+    "/assets/products/Brotrher-Fillum.webp"
   ],
   "specs": {
     "material": "Kulit Sapi Asli + Cordura Canvas Waterproof",

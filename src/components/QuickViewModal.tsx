@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { X, Check, ShoppingCart, ShieldCheck, Sparkles, MessageCircleQuestion } from 'lucide-react';
+import { X, Check, ShoppingBasket, ShieldCheck, Sparkles, MessageCircleQuestion } from 'lucide-react';
 import { Product } from '../types/tactical';
 
 interface QuickViewModalProps {
@@ -270,7 +270,7 @@ const QuickViewModalDialog: React.FC<QuickViewModalDialogProps> = ({
                     </>
                   ) : (
                     <>
-                      <ShoppingCart className="w-4 h-4 fill-current" />
+                      <ShoppingBasket className="w-4 h-4 fill-current" />
                       <span>PESAN SEKARANG (SIZE {selectedSize})</span>
                     </>
                   )}

@@ -21,9 +21,9 @@ export const product: Product = {
   "inStock": true,
   "stockRemaining": 9,
   "badge": "EDISI KHUSUS POLRI",
-  "image": "/assets/aistudio/Mamba-Polri-Komando_ecd38077.png",
+  "image": "/assets/products/Mamba-Polri-Komando.webp",
   "gallery": [
-    "/assets/aistudio/Mamba-Polri-Komando_ecd38077.png"
+    "/assets/products/Mamba-Polri-Komando.webp"
   ],
   "specs": {
     "material": "100% Kulit Sapi Asli Pilihan Lis Putih Dinas",
